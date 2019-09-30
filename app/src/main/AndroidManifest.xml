@@ -12,7 +12,7 @@
         <activity
             android:name=".ThemeActivity"
             android:label="@string/title_activity_theme"
-            android:theme="@style/MyTheme.NoActionBar">
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -63,8 +63,10 @@ public class ThemeActivity extends AppCompatActivity
 
         if (id == R.id.nav_camera) {
             setTheme(R.style.AppTheme);
+            initActivity();
         } else if (id == R.id.nav_gallery) {
             setTheme(R.style.MyTheme);
+            initActivity();
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
@@ -74,8 +76,6 @@ public class ThemeActivity extends AppCompatActivity
         } else if (id == R.id.nav_send) {
 
         }
-
-        initActivity();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
